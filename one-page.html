@@ -19,11 +19,16 @@
     <script src="/scripts/load-in.js" defer></script>
     <script src="/scripts/indhold.js" defer></script>
     <script src="/scripts/keyupdown.js" defer></script>
-
+    <script src="/scripts/navigate.js" defer></script>
+    <script src="/scripts/arrowNavigate.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/one-page.css" />
     <title>Kunstig Intelligens</title>
+    <meta
+      name="description"
+      content="Udforsk hvad kunstig intelligens' (AI) er, nuværende anvendelser og fremtidspotentiale, inklusive debatter om stærk vs. svag AI, intelligensdefinitioner, og AI's fremtidige rolle i samfundet."
+    />
   </head>
   <body>
     <header class="section">
@@ -34,10 +39,19 @@
           <div id="dot"></div>
         </div>
         <ul class="nav-icons">
-          <li><i class="fas fa-home"></i></li>
-          <li><i class="fas fa-search"></i></li>
-          <li><i class="fas fa-envelope"></i></li>
-          <li><i class="fas fa-user"></i></li>
+          <li data-href="one-page.html"><i class="fas fa-home"></i></li>
+          <li data-href="artikel.html">
+            <i class="fa-solid fa-newspaper"></i>
+          </li>
+          <li
+            data-href="https://aidenmark.dk/hvad-er-ai-og-hvad-kan-det-bruges-til"
+            target="_blank"
+          >
+            <i class="fa-solid fa-door-open"></i>
+          </li>
+          <li data-href="https://www.jair.org/index.php/jair" target="_blank">
+            <i class="fa-solid fa-atom"></i>
+          </li>
         </ul>
       </nav>
 
@@ -86,7 +100,7 @@
             Teknologien har og vil altid være menneskehedens største springbræt
             til fremgang i civilisationerne
           </h3>
-          <div id="arrow-click" class="arrow">
+          <div id="arrow-click" class="arrow" data-href="artikel.html#header">
             <span></span>
             <span></span>
             <span></span>
@@ -107,8 +121,8 @@
         <div class="outside-content">
           <div class="line"></div>
           <div class="top">
-            <p class="count">01</p>
-            <h2><span> Kunstig </span>Intelligens</h2>
+            <p class="count"><span>01</span></p>
+            <h2>Kunstig Intelligens</h2>
           </div>
           <p class="about-content">
             Kunstig intelligens væver sig ind i hverdagen: fra Siri til
@@ -120,7 +134,11 @@
             fremad, udforsker datas grænser og åbner nye perspektiver for,
             hvordan AI kan forme vores fremtid.
           </p>
-          <div id="arrow-click" class="arrow2">
+          <div
+            id="arrow-click"
+            class="arrow2"
+            data-href="artikel.html#section1"
+          >
             <span></span>
             <span></span>
             <span></span>
@@ -129,14 +147,115 @@
       </div>
     </section>
     <section class="content2 section">
-      <img
-        src="/images/strongAIVSweakAI-fotor-20240319234617.jpg"
-        alt="strongvsweak"
-      />
+      <div class="outside-content2">
+        <div class="line"></div>
+        <div class="top">
+          <p class="count"><span>02</span></p>
+          <h2>Strong VS Weak</h2>
+        </div>
+        <p class="about-content2">
+          Kunstig intelligens (AI) kan inddeles i svag AI og stærk AI. Svag AI,
+          som anvendes i Siri, selvkørende biler og ChatGPT, er designet til at
+          udføre specifikke opgaver. Stærk AI, eller Artificial General
+          Intelligence (AGI), som endnu er på teoristadiet, sigter mod at skabe
+          maskiner med menneskelige kognitive evner, inklusive bevidsthed,
+          kreativitet, og evnen til at lære og løse problemer.
+        </p>
+        <div id="arrow-click" class="arrow2" data-href="artikel.html#section2">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="invisible"></div>
     </section>
-    <section class="content3 section"></section>
-    <section class="content4 section"></section>
-    <section class="content5 section"></section>
-    <section class="content6 section"></section>
+    <section class="content3 section">
+      <div class="video-container">
+        <video
+          id="myVideo2"
+          src="/videos/intelligens.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div class="outside-content3">
+        <div class="line"></div>
+        <div class="top">
+          <p class="count"><span>03</span></p>
+          <h2>Intelligens</h2>
+        </div>
+        <p class="about-content3">
+          Intelligens omfatter evnen til problemforståelse, læring fra fortiden
+          og planlægning for fremtiden, men at definere intelligens på en måde,
+          der er målbar og overførbar til algoritmer, er komplekst og kulturelt
+          afhængigt. Derudover rejser teorien spørgsmål om følelser i kunstig
+          intelligens, som hvorvidt en robot kan føle ægte kærlighed eller
+          smerte. Mens robotter i fremtiden kan udføre opgaver mere effektivt
+          end mennesker, er at være menneske mere end blot at udføre arbejde.
+          Kunstig intelligens kan potentielt revolutionere områder som
+          undervisning ved at assistere med pensumgennemgang, mens læreren
+          fokuserer på de mere menneskelige aspekter af læringen.
+        </p>
+        <div id="arrow-click" class="arrow3" data-href="artikel.html#section3">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+    <section class="content4 section">
+      <div class="outside-content4">
+        <div class="line"></div>
+        <div class="top">
+          <p class="count"><span>04</span></p>
+          <h2>Nær fremtid?</h2>
+        </div>
+        <p class="about-content4">
+          At forstå kunstig intelligens afslører dens kompleksitet og dens
+          rækkevidde i samfundet. Forskningen i menneskets hjerne kan
+          revolutionere ikke kun AI men også medicin og neurovidenskab, muligvis
+          lede til avanceret AI med menneskelige egenskaber. Fremtidens
+          teknologiske grænser vil overraske os, idet viden og fremskridt
+          konstant udvider, hvad der er muligt.
+        </p>
+        <div id="arrow-click" class="arrow4" data-href="artikel.html#section4">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+    <section class="content5 section">
+      <div class="outside-content5">
+        <div class="line"></div>
+        <div class="top">
+          <p class="count"><span>05</span></p>
+          <h2>Begrænsninger</h2>
+        </div>
+        <p class="about-content5">
+          Kunstig intelligens forventes at revolutionere vores livsstil, idet
+          dens fremtidige omfang endnu er ukendt. Teknologiske giganter som
+          Google og Amazon dominerer udviklingen, drevet af enorme datamængder.
+          Udfordringer som energiforbrug og adgangsuligheder stiller krav til
+          bæredygtighed og inklusivitet for at sikre, at AI's potentiale fuldt
+          ud realiseres.
+        </p>
+        <div id="arrow-click" class="arrow4" data-href="artikel.html#section5">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-footer">
+        <p class="name">Søren Jung Henriksen</p>
+        <div class="outside-copy">
+          <p class="copyright">C</p>
+        </div>
+        <p class="year">2024</p>
+      </div>
+    </footer>
   </body>
 </html>

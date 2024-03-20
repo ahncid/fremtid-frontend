@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // Sætter 'active' klassen og margin til den nærmeste dot
     if (closestSection) {
       closestSection.style.margin = "3px"; // Tilføjer ekstra margin
-      closestSection.classList.add("active"); // Tilføjer 'active' klassen for yderligere styling
     }
   }
 

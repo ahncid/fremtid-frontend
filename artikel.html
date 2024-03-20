@@ -15,20 +15,302 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="/scripts/nav.js" defer></script>
+    <script src="/scripts/toTheTop.js" defer></script>
+    <script src="/scripts/navigate.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/artikel.css" />
-    <title>Document</title>
+    <title>Kunstig intelligens - Artikel</title>
+    <meta
+      name="description"
+      content="Artikel om kunstig intelligens (AI), berører forskellige emner, som strong AI vs weak AI, problemstillinger, fremtidsforudsigelser og begrænsninger."
+    />
   </head>
   <body>
-    <header>
-      <nav></nav>
-      <h1>Kunstig Intelligens</h1>
+    <nav class="navigation">
+      <div class="ellipsis">
+        <div id="dot"></div>
+        <div id="dot"></div>
+        <div id="dot"></div>
+      </div>
+      <ul class="nav-icons">
+        <li data-href="one-page.html"><i class="fas fa-home"></i></li>
+        <li data-href="artikel.html"><i class="fa-solid fa-newspaper"></i></li>
+        <li
+          data-href="https://aidenmark.dk/hvad-er-ai-og-hvad-kan-det-bruges-til"
+          target="_blank"
+        >
+          <i class="fa-solid fa-door-open"></i>
+        </li>
+        <li data-href="https://www.jair.org/index.php/jair" target="_blank">
+          <i class="fa-solid fa-atom"></i>
+        </li>
+      </ul>
+    </nav>
+    <header id="header">
+      <h1><span> Fremtiden </span>og kunstig intelligens</h1>
+      <div class="line"></div>
+      <p>
+        <span>Kunstig </span> intelligens er en teknologi, der imiterer
+        menneskelig intelligens og væremåde. Teknologiens popularitet og
+        brugerbase er eksploderet de seneste år på grund af dens lette
+        tilgængelighed, brugervenlighed og avancerethed. Kunstig intelligens er
+        blevet allemandseje, og måske er det ”nye internet” på vej. Denne
+        artikel vil belyse, hvad kunstig intelligens kan i dag, for derefter at
+        komme med et oplyst bud på, hvad den ikke så fjerne fremtid måske
+        bringer.
+      </p>
     </header>
-    <section class="article-section1"></section>
-    <section class="article-section2"></section>
-    <section class="article-section3"></section>
-    <section class="article-section4"></section>
-    <section class="article-section5"></section>
+
+    <article class="article-section1" id="section1">
+      <div class="article-content1">
+        <h2>Hvad er <span>kunstig intelligens?</span></h2>
+        <p>
+          Den digitale assistent Siri, den selvkørende bil og chatbots er bare
+          få eksempler på kunstig intelligens i hverdagen. Det fylder mere,
+          effektiviserer, men tager også af vores tid. Det er debatskabende og
+          berører derfor også det politiske landskab. Men hvad sker der under
+          overfladen, og hvorfor fylder det allerede så meget af vores hverdag?
+        </p>
+        <div class="citat-container">
+          <div class="citat">
+            <h6>"</h6>
+            <div class="citat-content">
+              <p class="citat-text">
+                Udviklingen af kunstig intelligens har aldrig gået hurtigere end
+                nu. Potentialet synes at være enormt, og det er svært at
+                forestille sig, hvor udviklingen ender.
+              </p>
+
+              <italic class="citat-author">
+                - Danmarks Tekniske Universitet, Kongens Lyngby
+              </italic>
+            </div>
+          </div>
+        </div>
+        <p>
+          Fordi kunstig intelligens er et så bredt emne, kan det opdeles i tre
+          lag. Det yderste lag er det færdige redskab, selve applikationen, som
+          er designet til at løse specifikke problemer. I det midterste lag har
+          vi algoritmerne og selve maskinlæringen. I det inderste og tredje lag
+          har vi data og input fra f.eks. brugere, sensorer og mikrofoner.
+          Algoritmerne i kunstig intelligens kan inddeles i ”machine learning”
+          og ”deep learning”. Begge bruger kunstige neurale net, som er designet
+          til at efterligne menneskers beslutningstagning, men de adskiller sig
+          ved, hvilken type af neurale net, der bliver brugt, og hvor meget
+          menneskelig indblanding, der kræves.
+        </p>
+        <p>
+          Et neuralt net er en model, der kan opveje data op mod anden data og
+          komme frem til en konklusion. Machine learning bruger ofte få neurale
+          net og er begrænset til et begreb, der hedder ”supervised learning”,
+          hvilket betyder, at dataen skal overvåges af et menneske for, at
+          algoritmen kan fungere optimalt. Deep learning bruger en anden type og
+          mange flere neurale netværk; derfor kan deep learning også fungere
+          uden menneskelig overvågning. Om det er machine learning eller deep
+          learning betyder ikke alverden, når det gælder om at finde ud af, hvad
+          kunstig intelligens er – begge er også underkategorier af ”kunstig
+          intelligens”, og deep learning er en underkategori af machine
+          learning.
+        </p>
+        <p>
+          For at forstå kunstig intelligens må vi ind i det midterste lag,
+          nemlig algoritmerne og dataen. Her handler det om at opsætte regler
+          for, hvordan data skal forstås, der skal modtages data (input) og
+          læres at bruge denne data (læring) til at give et ønsket respons
+          (output). Reglerne er i denne forstand algoritmerne. Denne læring er
+          blevet langt mere effektiv grundet de meget større datamængder og deep
+          learnings evne til at bruge dataen meget mere komplekst. Deep learning
+          er årsagen til selvkørende biler og generativ kunstig intelligens som
+          ChatGPT og DALL-E. Disse to modeller kan genkende mønstre i billeder
+          og tekst og dermed komme med forudsigelser om et bestemt input.
+        </p>
+      </div>
+    </article>
+    <article class="article-section2" id="section2">
+      <div class="article-content2">
+        <h2><span>Stærk</span> AI og <span>Svag</span> AI</h2>
+        <p>
+          Når man skal forsøge at spå om fremtiden inden for kunstig
+          intelligens, må man også nævne stærk kunstig intelligens. Svag kunstig
+          intelligens bliver brugt af f.eks. applikationen Siri, selvkørende
+          biler eller ChatGPT, alle designet til at udføre en specifik opgave.
+          Stærk kunstig intelligens eller AGI (Artificial General Intelligence)
+          er stadig mest på teoristadiet, men går ud på, at en maskine kan have
+          samme eller større intelligens end et menneske. Altså en robot med en
+          bevidsthed, der kan være kreativ, lære, løse problemer og planlægge.
+          Hvilket er meget fint på teori-stadie men meget mere komplekst i
+          praksis.
+        </p>
+        <ul class="strongvsweak-list">
+          <li class="list-header"><span>Stærk</span> AI</li>
+          <ul class="list-items">
+            <li>Fungerer med menneskelignende intelligens.</li>
+            <li>Har evnen til at forstå og lære selvstændigt.</li>
+            <li>
+              Kan tænke og handle autonomt, løser komplekse udfordringer uden
+              ekstern bistand.
+            </li>
+            <li>
+              Anvender viden og erfaring til at træffe beslutninger og lærer fra
+              fejl over tid.
+            </li>
+          </ul>
+        </ul>
+        <ul class="strongvsweak-list">
+          <li class="list-header"><span>Svag</span> AI</li>
+          <ul class="list-items">
+            <li>Specialiseret i specifikke opgaver.</li>
+            <li>
+              Genkender mønstre eller udfører sproglige assistentfunktioner.
+            </li>
+            <li>
+              Kræver detaljerede instruktioner for at operere og kan ikke
+              håndtere uventede udfordringer uden ny programmering.
+            </li>
+            <li>
+              Fokuserer på at behandle en type data, som f.eks. tekst eller
+              billeder, uden evnen til at lære ud over sin oprindelige
+              programmering.
+            </li>
+          </ul>
+        </ul>
+      </div>
+    </article>
+    <article class="article-section3" id="section3">
+      <div class="article-content3">
+        <h2>At <span> definere</span> intelligens</h2>
+        <p>
+          Generelt har vi alle nogle referencer til, hvad intelligens er, såsom
+          at forstå og løse problemer, men også at kunne lære af fortiden og
+          planlægge og forstå fremtiden, så vidt som muligt. Når det gælder om
+          at lave en bestemt definition, som er målbar og overførbar til
+          algoritmerne, er det langt mere problematisk. Definitionen afhænger af
+          dit kulturelle ophav og hvem du spørger, og er derfor næsten
+          udefinerbar.
+        </p>
+        <p>
+          Problemet med teorien er også spørgsmålet om følelser; vil en robot
+          nogensinde kunne føle kærlighed, egentlig smerte? Man ville kunne lave
+          en imitation i form af en maskinel reaktion, men hvad vil det sige at
+          føle? Hvordan føles ”sommerfugle i maven”? Man kan forklare det med
+          forventningsglæde eller gensynsglæde, men hvordan forklarer du selve
+          følelsen, og hvor på skalaen skal følelsen placeres i forhold til
+          første gang man var forelsket?
+        </p>
+        <img src="/images/definition.jpg" alt="intelligens" />
+        <p class="citat-image">
+          En stor del af den menneskelige intelligens ligger i vores evne til at
+          forstå og navigere i sociale interaktioner og følelser, et område hvor
+          AI's evner stadig er begrænsede.
+        </p>
+        <p class="citat-author">
+          -Stuart Russell og Peter Norvig, forfatterne til "Artificial
+          Intelligence: A Modern Approach"
+        </p>
+
+        <p>
+          Man vil i fremtiden kunne lave robotter, der kan varetage funktioner,
+          der i dag varetages af mennesker. Man vil opleve, at robotterne gør
+          det bedre og med færre fejl. Det at være menneske er så uendeligt
+          meget mere, end at være menneske på arbejde. Sidstnævnte kræver
+          hverken nær så stor mængde data eller algoritmer og er derfor
+          realistisk i forhold til ideen om at kunne lave en robot, der
+          varetager en bestemt arbejdsopgave. Robottens kunnen ville være
+          reflekteret i mængden af definitioner, regler, altså algoritmer og
+          selvfølgelig mængden af data tilgængelig.
+        </p>
+        <p>
+          I fremtiden kunne jeg sagtens forestille mig en kunstig intelligens,
+          der kunne varetage mange dele af eksempelvis en undervisning i skolen,
+          i hvert fald når det kommer til pensum og at kunne ”terpe” i gennem
+          noget materiale på en interessant måde og ikke-udmattende måde for
+          læreren og eleven. For læreren ville ikke være overflødig, tværtimod
+          ville personen kunne fokusere på andre mere menneskelige aspekter af
+          undervisningen og ting, der er mere umålbare og sværere at definere.
+        </p>
+      </div>
+    </article>
+    <article class="article-section4" id="section4">
+      <div class="article-content4">
+        <h2>Den lange <span>vej,</span> lige rundt <span> om hjørnet</span></h2>
+        <p>
+          I mit forsøg på at opnå en forståelse af kunstig intelligens, finder
+          jeg hurtigt ud af, hvor komplekst det er, og hvor mange forskellige
+          grene af samfundet og industrien det strækker sig over. Vi, på Jorden,
+          er i gang med at kortlægge den menneskelige hjerne. Hvis det på et
+          tidspunkt lykkes, vil det give os en indsigt og forståelse af os selv,
+          der vil føre til store gennembrud, ikke bare inden for kunstig
+          intelligens, men også medicin, neurologiske lidelser og forståelse af
+          hjernefunktioner og netværk.
+        </p>
+        <p>
+          Kortlægningen af den menneskelige hjerne vil kunne i fremtiden føre
+          til førnævnte stærke kunstige intelligens – en kunstig intelligens,
+          som fuldstændigt kan agere som, og være som et menneske. Hvis ikke
+          kortlægningen af den menneskelige hjerne holder svaret til den stærke
+          kunstige intelligens, så er der ikke noget, der gør.
+        </p>
+        <p>
+          Grænsen for, hvad der er muligt, rykker sig i takt med vores voksende
+          viden og teknologiske fremskridt. Det eneste, jeg kan sige med
+          sikkerhed, er, at vi om 10-20 år vil være mere overraskede over, hvad
+          vi kan, end vi er i dag.
+        </p>
+      </div>
+    </article>
+    <article class="article-section5 relative" id="section5">
+      <div class="article-content5">
+        <h2>Fremtiden, betydning, <span>grænser</span></h2>
+        <p>
+          Det, jeg tror på, er, at kunstig-intelligens-teknologien vil ændre
+          hele vores måde at leve på. Vi som mennesker ved jo, at intet
+          forbliver, som det er, og vi ved, at ingen kan spå om fremtiden – men
+          med kunstig intelligens kan vi spå, at det helt sikkert bliver en del
+          af fremtiden. Hvor stor en del det bliver, kan vi ikke vide noget om,
+          men jeg tror personligt, det bliver en stor del, hvis vi og verden
+          tillader det.
+        </p>
+        <p>
+          Det er dog ikke kun fantasien, der sætter grænsen, men også hele vores
+          lovgivende apparat og store tech-giganter som Google, Alphabet,
+          Microsoft, Apple og Amazon. I virkeligheden er det de virksomheder,
+          der sidder på et givent marked, der bestemmer retningen og dermed
+          grænserne for, hvordan de kan profitere på kunstig intelligens.
+          Grunden til, at det bare er de store giganter, der kan være med, og i
+          sidste ende kommer til at sidde med de virkelige værdier, er, fordi at
+          det er dem, der sidder på de enorme datamængder.
+        </p>
+        <p>
+          Om det kommer til at få ligeså stor betydning som internettet, kan man
+          kun have sin egen personlige holdning til, men jeg tror det ja. Der er
+          fordele og ulemper i alle teknologier, en af de ulemper kunstig
+          intelligens kan have er i forhold til klima og energiforbrug. Hvis
+          udviklingen skal fortsætte må energien komme fra vedvarende
+          energikilder, ellers bliver belastningen for stor. En anden ulempe er,
+          hvis det bliver noget, man ikke kan undvære i et samfund, men
+          tilgængeligheden bliver begrænset enten af status eller økonomi. Men
+          hvis tilgængeligheden falder vil kvaliteten og datamængden også falde.
+        </p>
+      </div>
+      <div class="til-toppen">
+        <div id="arrow-click" class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </article>
+
+    <footer>
+      <div class="container-footer">
+        <div class="outside-copy">
+          <p class="copyright">C</p>
+        </div>
+        <p class="year">2024</p>
+        <p class="name">Søren Jung Henriksen</p>
+      </div>
+    </footer>
   </body>
 </html>
