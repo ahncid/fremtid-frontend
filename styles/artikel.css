@@ -104,12 +104,8 @@ article p {
   left: 50%;
   list-style: none;
   padding: 0;
-  visibility: visible;
-  margin: 0 auto;
-}
 
-.nav-icons.active {
-  visibility: visible;
+  margin: 0 auto;
 }
 
 .nav-icons li {
@@ -178,18 +174,18 @@ article p {
   margin: 0 auto;
   text-align: left;
 }
-.article-content1 p {
-  margin-top: 15px;
-}
-.article-content3 p {
-  margin-bottom: 15px;
-}
-.article-content4 p {
-  margin-top: 15px;
-}
+.article-content1 p,
+.article-content3 p,
+.article-content4 p,
 .article-content5 p {
   margin-top: 15px;
 }
+
+.article-content2 h2,
+.article-content3 h2 {
+  margin-bottom: 5px;
+}
+
 .article-content3 img {
   width: 100%;
   height: auto;
