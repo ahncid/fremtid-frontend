@@ -271,7 +271,7 @@ h3 {
   margin-top: 20px;
   width: 100%;
   height: 100vh;
-  background-image: url(/images/strongAIVSweakAI2.jpg);
+  background-image: url(images/strongAIVSweakAI2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -342,7 +342,7 @@ h3 {
 
 .content4 {
   margin-top: 50px;
-  background-image: url(/images/longWay.jpg);
+  background-image: url(images/longWay.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -361,7 +361,7 @@ h3 {
   font-size: 1.6rem;
 }
 .content5 {
-  background-image: url(/images/limits.jpg);
+  background-image: url(images/limits.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
