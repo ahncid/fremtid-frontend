@@ -342,7 +342,7 @@ h3 {
 
 .content4 {
   margin-top: 50px;
-  background-image: url(../images/longWay.jpg);
+  background-image: url(/fremtid-frontend/images/longWay.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -362,7 +362,7 @@ h3 {
   font-size: 1.6rem;
 }
 .content5 {
-  background-image: url(../images/limits.jpg);
+  background-image: url(/fremtid-frontend/images/limits.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
